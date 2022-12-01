@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility</title>
+    <style>
+      button {
+        background-color: rgb(162, 102, 52);
+        border: none;
+        padding: 1% 1%;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        font-size: x-large;
+        font-family: Century;
+        display: inline-block;
+        border-radius: 5px;
+        transition-duration: 0.3s;
+        box-shadow: 0.7px 0.7px #000000;
+        color: rgb(248, 248, 234);
+      }
+      button:hover {
+        background-color: rgb(201, 154, 93);
+      }
+      .href {
+        color: white;
+      }
+      body {
+        background-image: url(/DATA1200/images/vinglass_n.jpg);
+        background-color: rgba(93, 63, 31, 0.8);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .bakgrunn {
+        float: right;
+        color: white;
+        font-size: small;
+        font-family: Century;
+        font-style: normal;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: xxx-large;
+        text-align: center;
+        font-family: Century;
+        text-shadow: 0.7px 0.7px #000000;
+        color: rgb(248, 248, 234);
+      }
+
+      .div {
+        background-color: rgba(93, 63, 31, 0.8);
+        text-align: center;
+        color: rgb(248, 248, 234);
+        font-size: x-large;
+        font-family: Century;
+        margin: auto;
+        width: 50%;
+        padding: 1vmax;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      .Adresse {
+        text-align: center;
+        font-family: Century;
+        font-size: x-large;
+        background-color: rgba(93, 63, 31);
+        color: rgb(248, 248, 234);
+        text-shadow: 0.7px 0.7px #000000;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <h1 id="overskrift">Accessibility</h1>
+      <a class="href" href="eksamen.html">
+        <button>Tilbake til forside</button>
+      </a>
+    </div>
+
+    <div class="div">
+      <p>
+        A very short text (max 500 words) about how you tested the code for
+        accessibility using an automated test. How you checked, and coding
+        choices you made for universal design beyond what an automated test
+        could tell you. You are welcome to use screenshots from the testing site
+        and of your code.
+        <br />
+        <br />
+        We shall read this text! While the content of your site is but a minor
+        part of the assessment, this is the text that we are certain to read.
+      </p>
+      <p>
+        Vi testet kontrastene i fargene (#F8F8EA & #5D3F1F) på WebAIM. Store
+        kontraster er viktig både med tanke på universelt design for svaksynte,
+        fargeblinde osv. Det er også mer komfortabelt å lese, og effektiv for å
+        få flere lesere/kunder. Topical-siden har en annen stil for å bryte med
+        restauranten. Dette er for å vise at det ikke er en sammenheng mellom
+        Restaurantkonseptet vårt og den teksten. Fokuset har fortsatt vært på å
+        skape gode kontraster i fargevalget. Vi ønsket store buttons på forsiden
+        da dette gav rask tilgang til de ulike funksjonene på nettiden. Tilbake
+        til forsiden knappene er mindre da brukerne allerede er kommet til den
+        siden de ønsket å oppsøke.
+
+        <br />
+        <a
+          class="href"
+          href="https://webaim.org/resources/contrastchecker/"
+          link
+          target="_blank"
+        >
+          Link til WebAIM
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
